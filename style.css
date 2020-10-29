@@ -56,3 +56,39 @@ img {
     font-size: 13px;
 }
 
+.daniel-img {
+    border: 1px solid var(--light-gray);
+}
+
+.body {
+    color: var(--dark-grayish-blue);
+    opacity: 0.7;
+}
+
+.jonathan {
+    background: var(--dark-grayish-blue);
+    grid-area: w;
+}
+
+.jonathan .name, .daniel .name, .patrick .name {
+    color: var(--light-gray);
+}
+
+.jonathan .status, .daniel .status, .patrick .status {
+    color: var(--light-gray);
+}
+
+.jonathan .main, .patrick .main, .daniel .main {
+    color: var(--light-grayish-blue);
+}
+
+.patrick {
+    background: var(--dark-blackish-blue);
+    grid-area: p;
+}
+
+.jeanette {
+    background: var(--white);
+    grid-area: h;
+}
+
